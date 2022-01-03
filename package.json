@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matt",
-  "license": "Unlicense",
+  "author": "Matt <3",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.1.6",
@@ -15,7 +15,8 @@
     "babel-loader": "^8.0.4"
   },
   "dependencies": {
-    "@pool-water/math": "file:../math",
-    "npm": "^6.4.0"
+    "@pool-water/math": "0.0.1",
+    "npm": "^6.4.0",
+    "three": "^0.135.0"
   }
 }

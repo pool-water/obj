@@ -1,3 +1,5 @@
+import * as THREE from "three";
+
 import Grass from '../obj/Grass.js';
 import {add, cross, sub, normalize, scale} from '@pool-water/math';
 import {stringToHex, getElapsedTime} from '../utils.js';

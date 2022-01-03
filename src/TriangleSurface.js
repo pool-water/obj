@@ -1,3 +1,5 @@
+import * as THREE from "three";
+
 import TriangleMesh from './TriangleMesh.js';
 import {sub, cross, normalize} from '@pool-water/math';
 
@@ -8,6 +10,7 @@ import {sub, cross, normalize} from '@pool-water/math';
  */
 export default class TriangleSurface {
   constructor(f, radius, width, height) {
+    return;
     this.f = f;
     this.mesh = new TriangleMesh(radius);
     this.width = width;
@@ -20,6 +23,8 @@ export default class TriangleSurface {
   }
 
   build() {
+
+    /*
 
     let k = 0;
     let f = this.f;
@@ -51,5 +56,6 @@ export default class TriangleSurface {
     }
 
     return geo;
+    */
   }
 }
